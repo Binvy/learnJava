@@ -2,6 +2,8 @@ package com.tstar.basic;
 
 /**
  * Created by binvy on 2018/1/27 0027
+ * @author binvy
+ * @date 2018/1/27
  */
 public class CountLetterInArray {
     public static void main(String[] args) {
@@ -34,8 +36,8 @@ public class CountLetterInArray {
         int[] counts = new int[26];
 
         // Count the letters and assign them to the array
-        for (int i = 0; i < chars.length; i++) {
-            counts[chars[i] - 'a']++;
+        for (char aChar : chars) {
+            counts[aChar - 'a']++;
         }
         // Return the array
         return counts;
