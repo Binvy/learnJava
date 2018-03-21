@@ -1,7 +1,5 @@
 package com.interview;
 
-import java.util.Arrays;
-
 /**
  * @comments: 二分法查找
  * @author: binvy
